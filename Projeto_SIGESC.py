@@ -183,7 +183,7 @@ def janela_principal():
         atualizar_distancia(lista_coords_computador, lista_coords_usuario)
 
         porcentagem = calcular_porcentagem(lista_coords_computador)
-        label_2.config(text=f"Porcentagem do traçado do desenho do usuário é: {porcentagem:.2f}%")
+        label_2.config(text=f"Porcentagem do traçado do usuário em relação ao desenho é: {porcentagem:.2f}%")
 
     
     botao_1 = tk.Button(frame2, text="Salvar", command=resultado)
